@@ -1,0 +1,148 @@
+/* Kind Words Section */
+
+
+.words-section {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.words-heading {
+    text-align: center;
+}
+
+.words-subheading {
+    color: var(--text-color-grey);
+    text-align: center;
+    font-size: var(--secondary-fs);
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 10px;
+}
+
+.work-cards {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.left-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.left-cards:last-child {
+    margin-bottom: 0;
+}
+
+
+.card {
+    border: 0.5px solid rgba(255, 255, 255, 0.4);
+    background-color: #1F293740;
+    border-radius: 12px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-desc {
+    font-size: var(--secondary-fs);
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--text-color-grey);
+}
+
+
+.card-heading {
+    font-size: var(--medium-fs);
+    font-weight: 700;
+    color: var(--text-color-grey);
+}
+
+.left-first {
+    height: 224px;
+    position: relative;
+}
+
+.back-light-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.left-second {
+    height: 352px;
+    position: relative;
+}
+
+.right-card {
+    height: 592px;
+    position: relative;
+}
+
+
+.words-stats {
+    margin: 20px 0 20px 0;
+    padding: 40px 0 40px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #6C4BEF;
+    border-radius: 12px;
+    margin-bottom: 50px;
+}
+
+
+.stats-heading {
+    color: var(--text-color-grey-light);
+    text-align: center;
+}
+
+.stats-desc {
+    color: var(--text-color-grey);
+}
+
+
+@media screen and (max-width: 768px) {
+    .work-cards {
+        flex-direction: column;
+        padding: 30px;
+    }
+    .words-stats {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .words-heading {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .words-subheading {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .card-desc {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .card-heading {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .words-stats {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .hr-line {
+        transform: rotate(90deg);
+    }
+}

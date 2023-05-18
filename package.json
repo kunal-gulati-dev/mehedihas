@@ -1,0 +1,23 @@
+{
+  "name": "mehedihas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "mehedihas",
+  "author": "kunal-gulati-dev",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^5.9.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scroll": "^1.8.9"
+  }
+}
